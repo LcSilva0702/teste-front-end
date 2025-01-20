@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+$font-primary: 'Poppins', sans-serif;
+
+.productsContainer {
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: 300px;
+    gap: 10px;
+    font-family: $font-primary;
+}
+
+
+.item {
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 100px;
+    height: 500px;
+    border-radius: 8px;
+    background-color: #fff;
+    gap: 10px;
+    margin: 0 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+.item img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    left: 100px;
+    position: relative;
+    width: 278.1px;
+    height: 228px;
+    top: 10px;
+    left: 75px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.item h2 {
+    font-size: 15px;
+    position: relative;
+    top: 20px;
+}
+
+.item button {
+    width: 275.85px;
+    height: 44px;
+    top: 100px;
+    left: 360px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+    border: none;
+    background-color: #3442B5;
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    font-family: $font-primary;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20;
+}
